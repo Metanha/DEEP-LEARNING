@@ -14,7 +14,7 @@ def preprocess_image(image, target_size):
 
 # Chargement des modèles (à adapter avec tes chemins réels)
 model_paludisme = tf.keras.models.load_model("Modele/modele_paludisme.h5")
-model_chien_chat = tf.keras.models.load_model("Modele/modele_dog93.h5")
+#model_chien_chat = tf.keras.models.load_model("Modele/modele_dog93.h5")
 model_cifar10 = tf.keras.models.load_model("Modele/modele_multiclasse89.h5")
 
 # Classes CIFAR-10
