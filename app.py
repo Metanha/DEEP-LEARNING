@@ -94,7 +94,7 @@ elif choix == "Chien/Chat":
 elif choix == "CIFAR-10":
     interface_cifar10()
 else:
-    st.image("images/télécharger.jpeg", caption="Deep Learning - Classification d'Images", width=350)
+    #st.image("images/télécharger.jpeg", caption="Deep Learning - Classification d'Images", width=350)
     #st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Artificial_Intelligence_logo.svg/512px-Artificial_Intelligence_logo.svg.png", width=300)
     st.info("Sélectionnez un modèle dans le menu pour commencer.")
 
